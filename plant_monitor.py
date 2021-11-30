@@ -17,8 +17,7 @@ class Plant:
         return False
 
     def water(self):
-        now = time.time()
         # water for one second
-        self.relay.turnon()
+        self.relay.on()
         time.sleep(1)
-        self.relay.turnoff()
+        self.relay.off()
