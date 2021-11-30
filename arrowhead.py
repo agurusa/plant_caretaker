@@ -1,0 +1,3 @@
+DRY = 60
+RELAY = 1
+SENSOR = 0
